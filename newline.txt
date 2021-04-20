@@ -1,0 +1,24 @@
+
+def new_line():
+    print('.')
+
+
+def three_lines():
+    new_line()
+    new_line()
+    new_line()
+#creating nin_lines function that uses function three lines
+def nine_lines():
+    three_lines()
+    three_lines()
+    three_lines()
+#creating clear_screen function that uses three functions above
+def clear_screen():
+    nine_lines()
+    three_lines()
+    new_line()
+#finally calling three_lines nine_lines and clear_screen respectively to print 25 new lines represented in by dot
+    
+three_lines()
+nine_lines()
+clear_screen()
